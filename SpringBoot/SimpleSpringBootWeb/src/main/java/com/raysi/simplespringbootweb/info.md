@@ -35,10 +35,10 @@
 	•	Use triple-quoted strings (Java Text Blocks) for HTML to improve readability.
 Example:
 
-return """
+```return """
 <h1>Hello, User!</h1>
 <p>Welcome to Spring Boot</p>
-""";
+""";```
 
 5. Best Practices:
 
