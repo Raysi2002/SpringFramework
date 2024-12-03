@@ -2,7 +2,7 @@
 
 Here’s a concise theory section you can include in your learning.md file to help with quick revisions:
 
-Spring Boot Controllers
+## Spring Boot Controllers
 
 	1.	What is a Controller?
 	•	In Spring Boot, a controller is a class used to handle incoming HTTP requests and define how the application responds. It’s a key part of the Model-View-Controller (MVC) design pattern.
@@ -12,10 +12,10 @@ Spring Boot Controllers
 	3.	Mapping HTTP Requests:
 	•	@RequestMapping: Maps HTTP requests to handler methods. Example:
 
-@RequestMapping("/example")
-public String exampleMethod() {
-return "Hello, Spring Boot!";
-}
+    ``` @RequestMapping("/example") 
+        public String exampleMethod() {
+            return "Hello, Spring Boot!"; 
+        }```
 
 
 	•	Supports path patterns (e.g., /login, /signup) and HTTP methods (GET, POST).
@@ -24,10 +24,10 @@ return "Hello, Spring Boot!";
 	•	You can return plain text, HTML, or JSON. Use triple-quoted strings (Java Text Blocks) for HTML for better readability.
 Example:
 
-return """
+```return """
 <h1>Hello, User!</h1>
 <p>Welcome to Spring Boot</p>
-""";
+""";```
 
 Best Practices
 
