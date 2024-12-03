@@ -12,10 +12,10 @@ Spring Boot Controllers
 	3.	Mapping HTTP Requests:
 	•	@RequestMapping: Maps HTTP requests to handler methods. Example:
 
-```@RequestMapping("/example")
+@RequestMapping("/example")
 public String exampleMethod() {
 return "Hello, Spring Boot!";
-}```
+}
 
 
 	•	Supports path patterns (e.g., /login, /signup) and HTTP methods (GET, POST).
@@ -24,10 +24,10 @@ return "Hello, Spring Boot!";
 	•	You can return plain text, HTML, or JSON. Use triple-quoted strings (Java Text Blocks) for HTML for better readability.
 Example:
 
-```return """
+return """
 <h1>Hello, User!</h1>
 <p>Welcome to Spring Boot</p>
-""";```
+""";
 
 Best Practices
 
