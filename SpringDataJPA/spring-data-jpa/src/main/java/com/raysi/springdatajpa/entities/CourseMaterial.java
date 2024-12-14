@@ -19,11 +19,12 @@ public class CourseMaterial {
 
     @OneToOne(
             cascade = CascadeType.ALL,
-            fetch = FetchType.EAGER
+            fetch = FetchType.EAGER,
+            optional = false // It will force you to add course in the CourseMaterial other wise it will throw error
     )
     @JoinColumn(
             name = "course_id",
             referencedColumnName = "courseId"
     )
-    private Course course;
+    private Courses course;
 }
