@@ -123,10 +123,4 @@ Deleting Data
 
 studentRepository.deleteStudentDetails("email@example.com");
 
-Summary
-
-This note introduces core Spring Data JPA features for beginners:
-•	Entity relationships (One-to-One, Many-to-One, Many-to-Many).
-•	Repository features (CRUD, custom queries, paging, and sorting).
-•	Additional best practices and advanced concepts for future exploration.
 
